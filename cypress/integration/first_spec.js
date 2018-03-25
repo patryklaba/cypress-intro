@@ -3,5 +3,6 @@ describe('My first test', ()=>{
         cy.viewport('ipad-2')
         cy.visit('http://siatka.org')
         cy.title().should('include', 'Strefa')
+        cy.screenshot()
     })
 })
